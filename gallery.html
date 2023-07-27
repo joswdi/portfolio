@@ -5,69 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
-        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/portfolio/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,500&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,400&display=swap"
         rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <nav>
-            <ul class="nav-list">
-                <li><a class="link nav-link headings" href="/portfolio/">Home</a></li>
-                <li><a class="link nav-link headings" href="/portfolio/#services">Services</a></li>
-                <li><a class="link nav-link headings" href="/portfolio/gallery.html">Gallery</a></li>
-            </ul>
+    <div class="container sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <a class="navbar-brand brand" href="#">OfferHeight</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Contacts
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="https://twitter.com/EmpireStateBldg">Twitter
+                            </a>
+                            <a class="dropdown-item" href="https://www.instagram.com/building.furniture/">Instagram</a>
+                            <a class="dropdown-item" href="https://www.facebook.com/groups/591213655238927">Facebook</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </nav>
-    </header>
-    <main class="main">
-        <h1 class="headings main-heading">My Gallery</h1>
-        <ul class="gallery">
-            <li>
-                <img class="gallery-image" src="/portfolio/images/beautiful-landscape_8327-295.webp">
-            </li>
-            <li>
-                <img class="gallery-image" src="https://img.freepik.com/free-photo/beautiful-shot-of-snowy-rocky-mountains-and-hills-under-a-misty-cloudy-sky_181624-2378.jpg?size=626&ext=jpg&ga=GA1.2.1610815588.1684654861&semt=sph" alt="mountains">
-            </li>
-            <li>
-                <img class="gallery-image" src="https://img.freepik.com/free-photo/beautiful-shot-of-rocky-mountains-covered-with-white-snow_181624-26636.jpg?size=626&ext=jpg&ga=GA1.2.1610815588.1684654861&semt=sph" alt="mountains">
-            </li>
-            <li>
-                <img class="gallery-image" src="https://img.freepik.com/free-photo/beautiful-shot-of-the-tre-cime-di-lavaredo-mountains-with-a-cloudy-sky_181624-5193.jpg?size=626&ext=jpg&ga=GA1.2.1610815588.1684654861&semt=sph" alt="mountains">
-            </li>
-            <li>
-                <img class="gallery-image" src="https://img.freepik.com/free-photo/high-angle-shot-of-foggy-hills_181624-39614.jpg?size=626&ext=jpg&ga=GA1.2.1610815588.1684654861&semt=sph" alt="mountains">
-            </li>
-            <li>
-                <img class="gallery-image" src="https://img.freepik.com/free-photo/snowy-mountain-peak-on-a-cloudy-day_181624-56144.jpg?size=626&ext=jpg&ga=GA1.2.1610815588.1684654861&semt=sph" alt="mountains">
-            </li>
-        </ul>
-    </main>
-    <footer class="footer">
-        <div>
-            <span class="span">Tel: </span>
-            <a class="link text" href="tel:+3801111111">+38(011) 111 11 11</a>
+        <div class="row">
+            <div class="col">
+                <div class="card mb-4">
+                    <div class="card-body text-center cards">
+                        <img class="card-img-top image" src="./design images/6 ways to create a rustic Scandinavian kitchen - Vaunt Design.jfif" alt="first"/>
+                        <a href="mailto:example@gmail.com" class="card-link text-success">Text me</a>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="card-body text-center cards">
+                        <img class="card-img-top image" src="./design images/Amazing Ideas Of Decorated Dining Rooms.jfif" alt="second"/>
+                        <a href="mailto:example@gmail.com" class="card-link text-success">Text me</a>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="card-body text-center cards">
+                        <img class="card-img-top image" src="./design images/ebbab358-4c06-4ccf-bd1b-17cf42de1c35.jfif" alt="third"/>
+                        <a href="mailto:example@gmail.com" class="card-link text-success">Text me</a>
+                    </div>
+                </div>
+            <div class="card mb-4">
+                <div class="card-body text-center cards">
+                    <img class="card-img-top image" src="./design images/In Love With This Bedroom Style.jfif" alt="fourth"/>
+                    <a href="mailto:example@gmail.com" class="card-link text-success">Text me</a>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card">
+                    <div class="card-body text-center cards">
+                        <img class="card-img-top image" src="./design images/Interior Design Trends for 2021.jfif" alt="fifth"/>
+                        <a href="mailto:example@gmail.com" class="card-link text-success">Text me</a>
+                    </div>
+                </div>
+            </div>
+                <div class="card mb-4">
+                    <div class="card-body text-center cards">
+                        <img class="card-img-top image" src="./design images/Salle de bain design avec grande douche italienne.jfif" alt="sixth"/>
+                        <a href="mailto:example@gmail.com" class="card-link text-success">Text me</a>
+                    </div>
+                </div>
+            <div class="card mb-4">
+                <div class="card-body text-center cards">
+                    <img class="card-img-top image" src="./design images/The Most Stylish And Inspiring Kitchens We've Seen.jfif" alt="seventh"/>
+                    <a href="mailto:example@gmail.com" class="card-link text-success">Text me</a>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-body text-center cards">
+                    <img class="card-img-top image" src="./design images/Transform Your Home With These 2020 Rug Trends.jfif" alt="eighth"/>
+                    <a href="mailto:example@gmail.com" class="card-link text-success">Text me</a>
+                </div>
+            </div>
+            </div>
         </div>
-        <div>
-            <span class="span">Email: </span>
-            <a class="link text" href="mailto:example@gmail.com">example@gmail.com</a>
-        </div>
-        <div>
-            <span class="span">Address: </span>
-            <address class="text">
-                Infinite Loop,<br>
-                Cupertino, CA<br>
-                95014, USA
-            </address>
-        </div>
-        <div>
-            <span class="span">My GitHub: </span>
-            <a class="link text" href="https://github.com/joswdi">joswdi</a>
-        </div>
-    </footer>
+    </div>
 </body>
 </html>

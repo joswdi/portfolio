@@ -1,70 +1,27 @@
-.header {
-    height: 200px;
-    background-image: url(https://img.freepik.com/free-photo/vintage-retro-camera-and-envelopes-with-letters-closeup_169016-17197.jpg?size=626&ext=jpg&ga=GA1.1.1610815588.1684654861&semt=sph);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    padding-left: 50px;
-}
-.headings {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    color: #fff;
-}
-
-.main-heading {
-    font-size: 50px;
-    text-align: center;
-    padding-top: 20px;
-}
-
-.subheading {
+a {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
     font-style: italic;
-    font-size: 30px;
 }
-.main {
-    background-color: #5c4937;
+
+.brand {
+    font-weight: 700;
+    font-style: normal;
 }
-.nav-list {
-    display: flex;
-    font-size: 40px;
-    gap: 100px;
-}
-.nav-link:hover {
-    color: #e34b4b;
-}
-.link {
-    color: #fff;
-    text-decoration: none;
-}
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-}
-.gallery-image {
-    height: 150px;
-    width: 250px;
-}
+
 .text {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Merriweather', serif;
     font-weight: 300;
-    color: #fff;
+    font-style: normal;
 }
-.section {
-    padding: 20px 20px;
-    text-align: center;
+
+.image {
+    max-width: 400px;
+    max-height: 400px;
 }
-.span {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    color: #e9e6e6;
-}
-.footer {
-    background-color: rgb(182, 168, 149);
+
+.cards {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 20px 50px;
 }
